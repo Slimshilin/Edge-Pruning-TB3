@@ -1,0 +1,16 @@
+{
+  "objects": [
+    "Piano", "Guitar", "Hammer", "Sword", "Shield", "Drum",
+    "Candle", "Lantern", "Mirror", "Compass", "Diamond", "Crystal",
+    "Marble", "Ribbon", "Feather", "Button", "Barrel", "Bucket",
+    "Helmet", "Crown", "Medal", "Trophy", "Rocket", "Cannon",
+    "Banner", "Dagger", "Torch", "Scroll", "Axe", "Bell",
+    "Bolt", "Brick", "Chain", "Charm", "Chest", "Clock",
+    "Coin", "Crate", "Dice", "Flag", "Flask", "Fork",
+    "Globe", "Hook", "Horn", "Ink", "Jewel", "Key",
+    "Knife", "Lamp", "Lock", "Mask", "Pearl", "Pen",
+    "Pike", "Plate", "Ring", "Rod", "Silk", "Skull",
+    "Spear", "Spike", "Staff", "Thread", "Tile", "Wand",
+    "Wire", "Blade"
+  ]
+}

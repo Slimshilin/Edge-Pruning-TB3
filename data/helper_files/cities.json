@@ -1,0 +1,13 @@
+{
+  "cities": [
+    "Ankara", "Athens", "Baghdad", "Bangkok", "Beijing", 
+    "Berlin", "Brussels", "Budapest", "Buenos", "Cairo", 
+    "Copenhagen", "Dublin", "Dubai", "Havana", "Helsinki", 
+    "Islamabad", "Jakarta", "Kabul", "Kuwait", "Lima", 
+    "Lisbon", "London", "Madrid", "Manila", "Moscow", 
+    "Mumbai", "Osaka", "Oslo", "Ottawa", "Paris", 
+    "Prague", "Riyadh", "Rome", "Santiago", "Seoul", 
+    "Stockholm", "Sydney", "Tehran", "Tokyo", "Tripoli", 
+    "Tunis", "Vienna", "Warsaw", "Zurich"
+  ]
+}

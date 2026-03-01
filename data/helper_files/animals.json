@@ -1,0 +1,11 @@
+{
+  "animals": [
+    "Ant", "Bear", "Buffalo", "Butterfly", "Camel", "Cat",
+    "Chicken", "Cow", "Crab", "Deer", "Dog", "Dolphin", "Donkey",
+    "Duck", "Eagle", "Elephant", "Fish", "Fox", "Frog", "Goat",
+    "Goose", "Horse", "Lion", "Lizard", "Monkey", "Mouse",
+    "Owl", "Pig", "Rabbit", "Rat", "Raven", "Seal",
+    "Shark", "Sheep", "Snake", "Spider", "Squirrel", "Tiger", "Turkey",
+    "Turtle", "Whale", "Wolf", "Yak"
+  ]
+}
