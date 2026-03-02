@@ -42,11 +42,10 @@ WANDB_MODE=disabled python src/prune/fpt2_ioi.py \
     --train_split $train_split \
     --initialize_from gpt2 \
     --max_seq_length 64 \
-    --per_device_train_batch_size 4 \
-    --per_device_eval_batch_size 4 \
-    --gradient_accumulation_steps 8 \
-    --eval_accumulation_steps 4 \
-    --fp16 \
+    --per_device_train_batch_size 32 \
+    --per_device_eval_batch_size 16 \
+    --gradient_accumulation_steps 1 \
+    --eval_accumulation_steps 16 \
     --edge_learning_rate $ELR \
     --layer_learning_rate $LLR \
     --reg_edge_learning_rate $RELR \
