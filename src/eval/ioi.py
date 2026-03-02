@@ -154,7 +154,12 @@ def main():
     control_model.reset_all_log_alphas()
     control_model.eval()
     tokenizer.pad_token_id = tokenizer.eos_token_id
-    
+
+    # If loading a raw (non-pruned) model, reset log_alphas to avoid NaN
+    is_raw_model = args.model_name_or_path in ["gpt2", "gpt2-medium", "gpt2-large", "gpt2-xl"]
+    if is_raw_model:
+        model.reset_all_log_alphas()
+
     if args.sparsity_edge is None:
         args.sparsity_edge = model.get_edge_sparsity()
         info(f"[i] Setting edge sparsity to {args.sparsity_edge}")

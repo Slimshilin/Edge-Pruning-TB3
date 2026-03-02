@@ -1,3 +1,6 @@
+# Large model checkpoints and logs
+ioi-ioi_mixed-es*/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

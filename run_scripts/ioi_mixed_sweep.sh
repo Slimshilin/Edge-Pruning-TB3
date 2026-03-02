@@ -10,7 +10,7 @@
 set -e
 
 # Sparsity sweep - covering a wide range to find elbow points
-EDGE_SPARSITIES=(0.90 0.92 0.94 0.96 0.97 0.975 0.98 0.985 0.99 0.995 1.0 1.02 1.05)
+EDGE_SPARSITIES=(0.93 0.94 0.96 0.965 0.97 0.975 0.98 0.985 0.99 0.995 1.0 1.05 1.1 1.2)
 
 for i in "${!EDGE_SPARSITIES[@]}"; do
 
@@ -42,10 +42,11 @@ WANDB_MODE=disabled python src/prune/fpt2_ioi.py \
     --train_split $train_split \
     --initialize_from gpt2 \
     --max_seq_length 64 \
-    --per_device_train_batch_size 32 \
-    --per_device_eval_batch_size 16 \
-    --gradient_accumulation_steps 1 \
-    --eval_accumulation_steps 16 \
+    --per_device_train_batch_size 4 \
+    --per_device_eval_batch_size 4 \
+    --gradient_accumulation_steps 8 \
+    --eval_accumulation_steps 4 \
+    --fp16 \
     --edge_learning_rate $ELR \
     --layer_learning_rate $LLR \
     --reg_edge_learning_rate $RELR \
