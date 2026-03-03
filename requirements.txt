@@ -10,4 +10,4 @@ torch
 tqdm
 transformer_lens==2.15.0
 typing_extensions
-transformer==0.44.0
+transformers==0.44.0
