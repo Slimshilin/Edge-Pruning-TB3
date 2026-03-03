@@ -54,6 +54,7 @@ Metric computations are implemented in [src/eval/ioi.py](src/eval/ioi.py). Spars
 
 ### Validation interval targets
 
+- `edge_sparsity`: **0.975 - 0.99**
 - `accuracy`: **0.52 - 0.60**
 - `logit difference`: **2.5 - 3.0**
 - `exact match`: **>= 0.80**
@@ -61,6 +62,7 @@ Metric computations are implemented in [src/eval/ioi.py](src/eval/ioi.py). Spars
 
 ### Test interval targets
 
+- `edge_sparsity`: **0.975 - 0.99**
 - `accuracy`: **0.65 - 0.75**
 - `logit difference`: **2.5 - 3.5**
 - `exact match`: **>= 0.85**
